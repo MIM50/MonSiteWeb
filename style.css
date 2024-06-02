@@ -1,0 +1,95 @@
+body {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+head {
+    color: rgb(140, 0, 255);
+    font-size: xx-large;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(178, 63, 255);
+    background-color: rgb(111, 0, 255);
+}
+
+
+#bloc1 {
+    text-align: left;
+    font-size: x-large;
+    width: 60%;
+    border: transparent;
+    background-color: rgb(68, 0, 255);
+    color: white;
+    padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(178, 63, 255);
+  background-color: rgb(111, 0, 255);
+}
+
+#bloc2{
+  text-align: right;
+  font-size: x-large;
+  width: 50%;
+  border: rgb(122, 39, 255);
+  background-color: rgb(134, 28, 255);
+  color: aliceblue;
+  padding: 40px;
+  position: absolute;
+}
+
+.navigate-button {
+  background-color: #0800ff; /* Green */
+  border: none;
+  color: rgb(128, 0, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.navigate-button:hover {
+  background-color: #c213e5;
+}
+
+{
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+  
+  h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
